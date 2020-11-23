@@ -1,0 +1,92 @@
+body{
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.chicken-edge-right, .beef-edge-right, .sushi-edge-right{
+  font-weight: bold;
+  width: 50%;
+  float: right;
+  text-align: center;
+  border: 2px solid black;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+p{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+.beef-edge-right{
+  color: white;
+  background-color: chocolate;
+}
+.sushi-edge-right{
+  color: black;
+  background-color: burlywood;
+}
+.chicken-edge-right{
+  color: black;
+  background-color:rosybrown;
+}
+section{
+  border: 2px solid black;
+}
+.row{
+  margin: auto;
+}
+
+*{box-sizing: border-box;}
+
+.bg-col-one{
+  background-color: grey;
+}
+.col-md-4, .col-sm-12, .col-xs-12, .col-xxs-12, .col-md-6{
+ margin: 10px;
+ width: 31%;
+}
+
+/* Large devices only media querry **/
+@media (min-width: 1200px){
+.chicken-edge-right, .beef-edge-right, .sushi-edge-right{
+  font-weight: bold;
+  width: 50%;
+  
+}
+}
+/* Medium devices only media querry ********/
+@media (min-width: 992px) and (max-width: 1199px){
+
+.chicken-edge-right, .beef-edge-right, .sushi-edge-right{
+  font-weight: bold;
+  width: 50%;
+ 
+}
+}
+
+/* Small devices only media querry */
+@media (min-width: 768px) and (max-width: 1124px){
+.col-xs-12, .col-sm-12, .col-md-4{
+  width: 100%;
+}
+
+.chicken-edge-right, .beef-edge-right, .sushi-edge-right{
+  font-weight: bold;
+  width: 50%;
+ 
+}
+}
+@media (min-width: 414px) and (max-width:768px){
+.col-xs-12, .col-sm-12, .col-md-4{
+  width: 100%;
+}
+}
+@media (min-width: 375px) and (max-width: 667px){
+
+.chicken-edge-right, .beef-edge-right, .sushi-edge-right{
+  font-weight: bold;
+  width: 50%;
+}
+}
